@@ -1,8 +1,18 @@
+body {
+    background-color: #121212;
+    margin: 0; /*Si on ne met pas cela, une bordure est crée par le navigateur autour du body et le fond ne s'applique pas a tt l'ecran*/
+    padding: 8px;
+    min-height: 100vh; /*Permet de dire au navigateur que la taille minimun du body est 100% soit tout l'écran ou plus si le site est long. Autrement le body se limite à la taille de l'html*/
+    color: white; /* Rend tout le texte du site blanc par défaut */
+    font-family: sans-serif;
+}
+
 h1 {
-    color: blue;
+    color: #1300a6;
     font-size: 60px;
+    text-align: center;
 }
 
 p {
-    color: red;
+    color: #614dff;
 }
